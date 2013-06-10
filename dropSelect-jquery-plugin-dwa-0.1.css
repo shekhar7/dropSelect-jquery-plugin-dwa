@@ -1,0 +1,65 @@
+.drp-select{
+	display:block;
+	width:150px;
+	height:24px;
+	position:relative;
+	font-size:.9em;
+}
+.drp-select label{
+	display:none;
+}
+.drp-select.show-label label{
+	display:block;
+	height:24px;
+	width:150px;
+}
+.drp-select.show-label{
+	height:48px;
+}
+
+.drp-select-div{
+	background:url("select.gif") no-repeat top right transparent;
+	width:150px;
+	height:24px;
+	border:1px solid lightgray;
+}
+.drp-select-div .current-selected{
+	width:146px;
+	height:20px;
+	margin:2px;
+	display:block;
+	padding-left:4px;
+}
+.drp-select-div.show-list ul{
+	background-position:30px right;
+	display:block;
+}
+.drp-select ul{
+	display:none;
+	list-style:none;
+	
+}
+.drp-select ul li a{
+	border:none;
+	display:block;
+	width:142px;
+	height:20px;
+	margin:2px;
+	padding-left:4px;
+}
+.drp-select ul li a:hover{
+	border:2px solid #f35c93;
+	margin:0px;	
+}
+
+.drp-select ul li{
+	cursor:pointer;
+	float:left;
+	width:150px;
+	height:24px;
+	border:1px solid lightgray;
+}
+.drp-select select{
+	visibility:hidden;
+	position:absolute;
+}
